@@ -1,3 +1,4 @@
+#include <SFML/Graphics.hpp>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -25,7 +26,7 @@ int main()
     sf::Clock clock;
     sf::Font font;
 
-    if (!font.loadFromFile("OpenSans-Regular.ttf"))
+    if (!font.loadFromFile("fonts/OpenSans-Regular.ttf"))
     {
         LOG("Could not load font file..");
         return 1;
