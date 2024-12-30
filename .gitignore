@@ -4,7 +4,6 @@ gmon.out
 Thumbs.db
 .DS_Store
 build
-bin
 
 # VS Code
 .vscode/ipch
